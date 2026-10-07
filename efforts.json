@@ -1,0 +1,9150 @@
+{
+ "byModelId": {
+  "abliterated-model": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "abliterated-model-large": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "abliterated-model-large-v2": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "agent-max": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "agent-prime": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "agent-standard": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "aion-2.0": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "aion-3.0": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "aion-3.0-mini": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "aion-3.5": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "aion-3.5-mini": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "alibaba-qwen3-32b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "amazon--nova-lite": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "amazon.nova-2-lite-v1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic--claude-4.5-opus": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic--claude-4.6-opus": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic--claude-4.6-sonnet": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic--claude-4.7-opus": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic--claude-4.8-opus": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-3.7-sonnet": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-4.1-opus": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-4.5-haiku": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-4.5-sonnet": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-4.6-sonnet": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-5-sonnet": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-fable-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-fable-5.1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-haiku-4.5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-opus-4": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-opus-4.5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-opus-4.6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-opus-4.7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-opus-4.8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-opus-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-opus-5.5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-sonnet-4": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic-claude-sonnet-5.5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-fable-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-fable-5-1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-opus-4-5-20251101-v1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-opus-4-6-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-opus-4-7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-opus-4-8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-opus-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-opus-5-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-sonnet-4-6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "anthropic.claude-sonnet-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "arcee-trinity-large-thinking": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "arrow-2": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "arrow-2-telos": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "atria-dawn-preview": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "au.anthropic.claude-opus-4-6-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "au.anthropic.claude-opus-4-7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "au.anthropic.claude-opus-4-8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "au.anthropic.claude-opus-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "au.anthropic.claude-opus-5-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "au.anthropic.claude-sonnet-4-6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "au.anthropic.claude-sonnet-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "auto": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "bee-brood": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "bee-buzz": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "bee-comb": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "bee-hive": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "bee-swarm": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "cheap": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-3-7-sonnet-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-3.7-sonnet": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-4-5-sonnet": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-4-6-sonnet": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-fable-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-fable-5-1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-fable-5-1@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-fable-5.1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-fable-5.1@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-fable-5@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-fable-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-fable-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-haiku-4-5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-haiku-4-5-20251001": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-haiku-4-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-haiku-4.5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-haiku-latest": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-mythos-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-1-20250805": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-5-20251101": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-5@20251101": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-6": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-6-think": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-6@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-6@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-7": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-7-think": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-7@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-7@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-8": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-8-fast": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-8-think": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-8@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4-8@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4.1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4.5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-4.6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-opus-4.7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-opus-4.8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-opus-4.8-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-opus-5-5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-5-5-fast": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-5-5@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-5-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-5-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-5.5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-opus-5.5-fast": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-5@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-opus4-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus4-6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus4-7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-opus4-8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4-5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4-5-20250929": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4-6": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4-6-think": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4-6@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4-6@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4.5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-4.6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-sonnet-4@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-sonnet-5-5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-5-5@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-5-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-5-free": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-5.5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claude-sonnet-5@default": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claude-sonnet-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "claw-high": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claw-low": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "claw-medium": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "code-max": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "code-prime": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "code-standard": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "codex-mini": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "cohere--command-a-reasoning": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "command-a-plus": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "cyberheabsy": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-deepseek-v4-flash-0731": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-deepseek-v4-pro-0813": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gemini-3-1-flash-lite": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gemini-3-1-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gemini-3-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gemini-3-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-glm-5-2": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-2": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-4": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-4-mini": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-4-nano": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-6-luna": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-6-sol": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-6-terra": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-mini": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-5-nano": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-oss-120b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-oss-120b@eu": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-oss-20b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-gpt-oss-20b@eu": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-inkling": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "databricks-kimi-k2-7-code": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-3.2": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-chat-v3.1": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-flash": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-flash-latest": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "deepseek-latest": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-pro-latest": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "deepseek-r1": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-r1-0528": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-r1-distill-llama-70b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v3-2": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v3.1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v3.1-terminus": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v3.2": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v3.2-exp": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v3.2-thinking": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-1-flash": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "probe"
+  },
+  "deepseek-v4-flash-0423": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-flash-0731": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "deepseek-v4-flash-0731-284b": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-flash-0731-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-flash-0731@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-flash-flex": {
+   "efforts": [
+    "none",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-flash-free": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-flash-ga-260731": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-flash-latest": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "deepseek-v4-flash-speed": {
+   "efforts": [
+    "none",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-flash-vision-exp": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "deepseek-v4-flash:0731": {
+   "efforts": [
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-pro": {
+   "efforts": [
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "deepseek-v4-pro-0423": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-pro-0813": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "deepseek-v4-pro-0813@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-pro-ga-260813": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-pro:0813": {
+   "efforts": [
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4-pro@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4.1-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "probe"
+  },
+  "deepseek-v4.1-flash-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4.1-flash-fast-fp4": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4.1-flash-flex": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4.1-flash@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "deepseek-v4p1-flash": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "diffusiongemma": {
+   "efforts": [
+    "none",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "diffusiongemma-26b-a4b-it": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "dots-3-note-preview": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-1-6-251015": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-1-8-251228": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-1.8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2-0-code-preview": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2-0-code-preview-260215": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2-0-lite-260428": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2-0-mini-260428": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2-0-pro": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2-0-pro-260215": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2-1-pro-260628": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2-1-turbo-260628": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2.0-lite": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2.0-mini": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2.0-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-2.1-turbo": {
+   "efforts": [
+    "none",
+    "low",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-character": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-character-260628": {
+   "efforts": [
+    "minimal",
+    "low",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-code": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "doubao-seed-evolving": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-fable-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-fable-5-1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-gpt-5-6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-gpt-5-6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-gpt-5-6-terra": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-gpt-6-astra": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-gpt-6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-gpt-6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-opus-4-8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-opus-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-opus-5-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "duo-chat-sonnet-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "e2e": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "echo": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ember-1": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "ernie-4.5-vl-424b-a47b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.amazon.nova-2-lite-v1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.anthropic.claude-fable-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.anthropic.claude-opus-4-5-20251101-v1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.anthropic.claude-opus-4-6-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.anthropic.claude-opus-4-7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.anthropic.claude-opus-4-8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.anthropic.claude-opus-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.anthropic.claude-opus-5-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.anthropic.claude-sonnet-4-6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "eu.anthropic.claude-sonnet-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fugu": {
+   "efforts": [
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fugu-max": {
+   "efforts": [
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "fugu-ultra": {
+   "efforts": [
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "fugu-ultra-20260615": {
+   "efforts": [
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fugu-ultra-v1-0": {
+   "efforts": [
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fugu-ultra-v1-1": {
+   "efforts": [
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fugu-ultra-v1.1": {
+   "efforts": [
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fugu-ultra-v2": {
+   "efforts": [
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "fugu-ultra-v2-0": {
+   "efforts": [
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fugu-ultra-v2.0": {
+   "efforts": [
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fusion": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fusion-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "fusion-mini": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash-lite": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash-lite-preview-06-17": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash-lite-preview-09-2025": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash-lite-preview-09-2025-thinking": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash-lite@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash-preview-04-17": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash-preview-05-20": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash-preview-09-2025": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash-preview-09-2025-thinking": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-flash@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-pro": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-pro-exp-03-25": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-pro-preview": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-pro-preview-03-25": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-pro-preview-05-06": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-pro-preview-06-05": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-2.5-pro@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-1-flash-lite": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-1-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-1-pro-preview": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-5-flash": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-5-flash-lite": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-6-flash": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-7-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-flash": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-flash-preview": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3-flash-preview-thinking": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-pro": {
+   "efforts": [
+    "low",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-pro-image": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-pro-image-preview": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3-pro-preview": {
+   "efforts": [
+    "low",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.1-flash-image": {
+   "efforts": [
+    "minimal",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.1-flash-image-preview": {
+   "efforts": [
+    "minimal",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.1-flash-lite": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.1-flash-lite-image": {
+   "efforts": [
+    "minimal",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.1-flash-lite-preview": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.1-flash-lite@eu": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.1-flash-lite@us": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.1-flash-live-preview": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.1-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.1-pro-preview": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.1-pro-preview-customtools": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.5-flash": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.5-flash-lite": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.5-flash-lite@eu": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.5-flash-lite@us": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.5-flash-thinking": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.5-flash@eu": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.5-flash@us": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.6-flash": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.6-flash@eu": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.6-flash@us": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.7-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.7-flash@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.7-flash@us": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.8-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-3.8-flash@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-3.8-flash@us": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-flash-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemini-flash-lite-latest": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-omni-flash-preview": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemini-pro-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gemma-3-4b-pt": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-12b-it": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-26b-a4b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-26b-a4b-it": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-31b": {
+   "efforts": [
+    "none",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-31b-claude-4.6-opus-reasoning-distilled": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-31b-cognitive-unshackled": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-31b-darkidol": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-31b-garnetv2": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-31b-it": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-31b-queen": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-e2b-it": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma-4-e4b-it": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma4": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma4-26b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gemma4-31b": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliguard-llmguardrails-300m": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliguard-pii-multi": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliner-2.5-decide": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliner2-base-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliner2-large-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliner2-multi-large-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliner2-multi-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliner2-privacy-filter-pii-multi": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliner2.5-base-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gliner2.5-multi-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-4.5": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-4.5-air": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-4.5v": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-4.6": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-4.6-derestricted-v5": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-4.6v": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-4.7": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-4.7-flash": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5-1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5-2": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5-2-260617": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5-3": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5-3-flash": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5-3-flash-260828": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5-turbo": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.1": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.1-thinking": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.1@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2": {
+   "efforts": [
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "glm-5.2-caveman": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-caveman-lite": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-caveman-ultra": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-flex": {
+   "efforts": [
+    "none",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-fp8": {
+   "efforts": [
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-highspeed": {
+   "efforts": [
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-honey": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-honey-lite": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-honey-ultra": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-ponytail": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-ponytail-lite": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-ponytail-ultra": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-short": {
+   "efforts": [
+    "none",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-short-fast": {
+   "efforts": [
+    "none",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-short-fast-flex": {
+   "efforts": [
+    "none",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2-short-flex": {
+   "efforts": [
+    "none",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.2@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "glm-5.3-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-flash": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "probe∩(2)"
+  },
+  "glm-5.3-flash-cybersecurity": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-flash-flex": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-flash-fp4": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-flash-free": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-flash-uncensored": {
+   "efforts": [
+    "low",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-flash@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-flashx": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "glm-5.3-flex": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-fp4": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-free": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-highspeed": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3-prime": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "glm-5.3-uncensored": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5.3@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5p3": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5p3-fast": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5p3-flash": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-5v-turbo": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-fast-latest": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm-flash-latest": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "glm-latest": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "glm5.2": {
+   "efforts": [
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm5.2-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm5.3": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm5.3-754b": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "glm5.3-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.amazon.nova-2-lite-v1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-fable-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-fable-5-1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-opus-4-5-20251101-v1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-opus-4-6-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-opus-4-7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-opus-4-8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-opus-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-opus-5-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-sonnet-4-6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-sonnet-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.anthropic.claude-sonnet-5-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.openai.gpt-5.6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.openai.gpt-5.6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.openai.gpt-5.6-terra": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.openai.gpt-6-astra": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.openai.gpt-6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.openai.gpt-6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.xai.grok-4.6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "global.xai.grok-4.7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "google-gemma-4-26b-a4b-it": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "google-gemma-4-31b-it": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "google.gemma-4-26b-a4b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "google.gemma-4-31b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "google.gemma-4-e2b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5-1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-2": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-3-codex": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-4": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-4-mini": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-4-nano": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-5-pro": {
+   "efforts": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-6-terra": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-codex": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-fast": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-image": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-image-mini": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-mini": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5-mini-fast": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-mini@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-nano": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5-nano@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5-pro": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.1-2025-11-13": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.1-chat-latest": {
+   "efforts": [
+    "medium"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.1-codex": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.1-codex-max": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.1-codex-mini": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.1-thinking": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.1-thinking-fast": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.1@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.2": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.2-chat-latest": {
+   "efforts": [
+    "medium"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.2-codex": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.2-fast": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.2-pro": {
+   "efforts": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.3-codex": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.3-codex-fast": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.3-codex-spark": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.4": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.4-fast": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.4-image-2": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.4-mini": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.4-mini-fast": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.4-nano": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.4-pro": {
+   "efforts": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.4@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.5-fast": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.5-instant": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.5-pro": {
+   "efforts": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.6": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.6-luna-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.6-luna-pro": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.6-luna@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.6-sol": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "probe"
+  },
+  "gpt-5.6-sol-fast": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.6-sol-pro": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.6-sol:official": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.6-sol@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.6-terra": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "probe"
+  },
+  "gpt-5.6-terra-fast": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5.6-terra-pro": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-5.6-terra@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-6-astra": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-6-astra-fast": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-6-astra-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-6-astra:official": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-6-luna-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-6-luna-pro": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-6-luna@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-6-sol": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "probe∩(2)"
+  },
+  "gpt-6-sol-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-6-sol-pro": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-6-sol@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-6.1-sol": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "probe"
+  },
+  "gpt-6.1-sol-fast": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-6.1-sol-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-6.1-sol@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-astra-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-chat-latest": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-daybreak-blue-latest": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-daybreak-red-latest": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-luna-latest": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-mini-latest": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-oss-120b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-oss-120b-cs": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-oss-120b-high-throughput": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-oss-120b-maas": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-oss-20b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-oss-20b-maas": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-oss-safeguard-120b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-oss-safeguard-20b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-oss:120b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-oss:20b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-pro-latest": {
+   "efforts": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-realtime-2.1": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "gpt-sol-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "gpt-terra-latest": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "granite-4.2-8b": {
+   "efforts": [
+    "none",
+    "low",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "green-r": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "green-r-raw": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-3-mini": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4-1-fast-reasoning": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4-20-beta-0309-reasoning": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4-20-reasoning": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4-3": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4-6": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4-7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4.1-fast-reasoning": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4.2-beta": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4.20": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4.20-multi-agent": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "grok-4.20-multi-agent-0309": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4.20-multi-agent-beta": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4.20-reasoning": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4.20-reasoning-beta": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-4.3": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "grok-4.5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "grok-4.6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "grok-4.7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "grok-build-0-1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-build-0.1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "grok-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "hermes-4-405b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "hermes-high": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "hermes-low": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "hermes-medium": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "holo2-30b-a3b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "hunyuan-a13b-instruct": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "hy3": {
+   "efforts": [
+    "none",
+    "low",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "hy3-free": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "hy3-preview": {
+   "efforts": [
+    "none",
+    "low",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "hy4-preview": {
+   "efforts": [
+    "none",
+    "low",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "in.openai.gpt-5.6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "in.openai.gpt-5.6-terra": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "inkling": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "inkling-256k": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "inkling-small": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "inkling:peft:262144": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "interfaze-beta": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "jp.amazon.nova-2-lite-v1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "jp.anthropic.claude-opus-4-7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "jp.anthropic.claude-opus-4-8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "jp.anthropic.claude-opus-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "jp.anthropic.claude-opus-5-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "jp.anthropic.claude-sonnet-4-6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "jp.anthropic.claude-sonnet-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "k3": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "k3-256k": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-fast-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-for-coding": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k2-6": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k2-7-code": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k2-thinking": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k2.5": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k2.6": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k2.6@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k2.7-code": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k2.7-code-highspeed": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k2.7-code@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k3": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "kimi-k3-eco": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k3-fast": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k3-fast-api": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k3-flex": {
+   "efforts": [
+    "none",
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k3-free": {
+   "efforts": [
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-k3@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "kimi-latest": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "laguna-m.1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "laguna-s-2.1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "laguna-s-2.1-free": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "laguna-xs-2.1": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "laguna-xs.2": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "large": {
+   "efforts": [
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "lfm-2.5-2.6b": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "lfm2-24b-a2b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ling-3.0-flash": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ling-3.0-flash-fin": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ling-3.0-flash-free": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ling-3.0-flash-sante": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ling-3.0-flash-sante-free": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ling-3.0-flash-vl": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ling-3.0-tiny": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ling-3.1-flash": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ling-3.1-flash-free": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "llama-3.1-8b-instruct": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "llama-3.2-1b-instruct": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "llama-3.2-3b-instruct": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "longcat-2.0": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "magistral-medium": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "magistral-small-2506": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mai-code-1-flash-picker": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mai-code-1.1-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mercury-2": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "mercury-2-5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mercury-2.5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "mercury-2.5-preview": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mimo-v2.5": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mimo-v2.5-pro": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mimo-v2.6-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "probe"
+  },
+  "mimo-v2.6-flash-abliterated": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mimo-v2.6-flash-uncensored": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mimo-v2.6-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "probe"
+  },
+  "mimo-v2.6-pro-ultraspeed": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-latest": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m1": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m2": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m2.1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m2.1-lightning": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m2.5": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m2.5-highspeed": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m2.7": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m2.7-highspeed": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m25": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m27": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m3": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m3.1-flash-preview": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "minimax-m3@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral-7b-instruct-v0.3": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral-medium-2604": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral-medium-3-5": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "mistral-medium-3-5@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral-medium-3.5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral-medium-3.5-128b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral-medium-latest": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral-small-2603": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "mistral-small-2603@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral-small-4-119b-2603": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral-small-latest": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistral4-119b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistralai--mistral-medium": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "mistralai--mistral-small": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "motif-3": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "muse-glimmer-30b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "muse-spark-1-1": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "muse-spark-1-2": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "muse-spark-1-3": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "muse-spark-1.1": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "muse-spark-1.2": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "muse-spark-1.2-contributor": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "muse-spark-1.2-contributor-free": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "muse-spark-1.3": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "muse-spark-1.3-contributor": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "muse-spark-1.3-contributor-free": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "namazu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3-120b-a12b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3-nano-30b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3-nano-30b-a3b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3-nano-omni": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3-nano-omni-30b-a3b-reasoning": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3-nano-omni@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3-super-120b-a12b": {
+   "efforts": [
+    "low",
+    "medium"
+   ],
+   "source": "rules:intersection"
+  },
+  "nemotron-3-ultra-550b-a55b": {
+   "efforts": [
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "nemotron-3-ultra-nvfp4": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3.5-content-safety": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3.5-lightning": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3.5-lightning-30b-a3b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-3_5-lightning": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-lightning-3.5-30b-a3b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nemotron-nano-12b-v2-vl": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nex-n2.5-mini": {
+   "efforts": [
+    "none",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "nex-n2.5-pro": {
+   "efforts": [
+    "none",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "north-mini-code": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "north-mini-code-1-0": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "north-mini-code-free": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nova-2-lite": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nova-2-lite-v1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nvidia-nemotron-3-nano-30b-a3b-bf16": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nvidia-nemotron-3-super-120b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nvidia-nemotron-3-super-120b-a12b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nvidia-nemotron-3-super-120b-a12b-fp8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nvidia-nemotron-3-super-120b-a12b-nvfp4": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nvidia-nemotron-3-ultra": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nvidia-nemotron-3-ultra-550b-a55b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nvidia-nemotron-3-ultra-550b-a55b-bf16": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "nvidia-nemotron-3.5-lightning-30b-a3b-bf16": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o1-pro": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o3": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o3-fast": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o3-mini": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o3-mini-high": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "o3-mini-low": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o3-pro": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o3-pro-2025-06-10": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o4-mini": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o4-mini-fast": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "o4-mini-high": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "o4-mini@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "olafangensan-glm-4.7-flash-heretic": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-4o-mini": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5-mini": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5-nano": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.1": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.1-codex-max": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.2": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.2-pro": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.3-codex": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.4": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.4-mini": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.4-nano": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.4-pro": {
+   "efforts": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.5": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.6-luna": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.6-sol": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-5.6-terra": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-52": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-53-codex": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-54": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-54-mini": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-54-pro": {
+   "efforts": [
+    "none",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-55": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-55-pro": {
+   "efforts": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-56-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-56-luna-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-56-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-56-sol-pro": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-56-terra": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-56-terra-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-6-astra": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-6-astra-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-61-sol": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-oss-120b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-gpt-oss-20b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-o1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-o3": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai-o3-mini": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-5.4": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-5.5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-5.6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-5.6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-5.6-terra": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-6-astra": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-oss-120b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-oss-120b-1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-oss-20b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-oss-20b-1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-oss-safeguard-120b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-oss-safeguard-20b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "openai.gpt-oss-safeguard-20b@us": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ox-alpha": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "perceptron-mk1": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "perceptron-mk1.5": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "pixel-canary": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen-3-235b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen-3-8-27b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen-3.8-27b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen-3.8-27b-flex": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-1.7b-base": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-14b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-235b-a22b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-235b-a22b-thinking-2507": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-30b-a3b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-30b-a3b-thinking-2507": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-32b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-4b-base": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-4b-instruct-2507": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-5-122b-a10b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-5-27b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-5-35b-a3b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-5-397b-a17b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-5-4b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-5-9b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-6-27b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-6-35b-a3b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-6-flash": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-6-max-preview": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-7-flash": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-7-max": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-7-plus": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-8-27b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-8-flash": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-8-max": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-8-max-0902": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-8-omni-flash": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-8b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-max-thinking": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-next-80b-a3b-thinking": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-vl-235b-a22b-thinking": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-vl-30b-a3b-thinking": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3-vl-8b-thinking": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-122b-a10b": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-27b": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-27b-bluestar-v3-derestricted": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-27b-queen-derestricted": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-2b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-35b-a3b": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-397b-a17b": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-9b": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-flash": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-flash-02-23": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-plus": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-plus-02-15": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.5-plus-20260420": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.6": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.6-27b": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "default"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.6-35b": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.6-35b-a3b": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.6-35b-flex": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.6-flash": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.6-max-preview": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.6-plus": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.7-flash": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.7-max": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.7-plus": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-2.4t-a95b": {
+   "efforts": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "qwen3.8-2.4t-a95b-nvfp4": {
+   "efforts": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-2.4t-a95b@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-27b": {
+   "efforts": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "qwen3.8-27b-fp8": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-27b-nvfp4": {
+   "efforts": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-27b-uncensored": {
+   "efforts": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-flash": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-flash-next": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-flash-next@eu": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-max": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-max-0902": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "qwen3.8-max-preview": {
+   "efforts": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3.8-max-prime": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "qwen3.8-omni-flash": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen35-122b-a10b": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen35-397b-a17b": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "qwen3p8-2p4t-a95b": {
+   "efforts": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "reka-flash-3": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ring-2.6-1t": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "sakana-namazu": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "sarvam-105b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    null
+   ],
+   "source": "rules:models.dev"
+  },
+  "sarvam-30b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "null"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-1-6-250615": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-1-6-250915": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-1-6-flash-250715": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-1-8-251228": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-1.6": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-1.6-flash": {
+   "efforts": [
+    "none",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-1.8": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2-0-code": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2-0-code-preview-260328": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2-0-lite": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2-0-lite-260428": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2-0-mini": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2-0-mini-260428": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2-0-pro": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2-0-pro-260328": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2-1-turbo": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2.0-code": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "seed-2.0-lite": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "seed-2.0-mini": {
+   "efforts": [
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "seed-2.0-pro": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "seed-2.1-turbo": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "sensenova-6.8-flash-lite": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "smollm3-3b-base": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "solar-mini4": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "solar-pro-3": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "solar-pro2": {
+   "efforts": [
+    "minimal",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "solar-pro3": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "solar-pro4": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "sonar-deep-research": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "sonar-pro-search": {
+   "efforts": [
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "sonar-reasoning-pro": {
+   "efforts": [
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "space-bunny-alpha": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:intersection"
+  },
+  "space-bunny-free": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "step-3-5-flash-2603": {
+   "efforts": [
+    "low",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "step-3-7-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "step-3.5-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "step-3.5-flash-2603": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "step-3.7-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:intersection"
+  },
+  "step-3.7-flash-free": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "step-5-preview": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "synth": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "synth-code": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "ternary-bonsai-2-27b": {
+   "efforts": [
+    "medium",
+    "xhigh"
+   ],
+   "source": "rules:intersection"
+  },
+  "text-max": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "text-prime": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "text-standard": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "trinity-large-thinking": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "umans-coder": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "umans-deepseek-v4-flash-0731": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "umans-deepseek-v4.1-flash": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "umans-flash": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "umans-glm-5.3-flash": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "umans-kimi-k3": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "umans-qwen3.6-35b-a3b": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us-gov.openai.gpt-oss-120b-1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us-gov.openai.gpt-oss-20b-1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.amazon.nova-2-lite-v1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-fable-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-fable-5-1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-opus-4-5-20251101-v1:0": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-opus-4-6-v1": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-opus-4-7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-opus-4-8": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-opus-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-opus-5-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-sonnet-4-6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.anthropic.claude-sonnet-5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.openai.gpt-5.6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.openai.gpt-5.6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.openai.gpt-5.6-terra": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.openai.gpt-6-astra": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.openai.gpt-6-luna": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.openai.gpt-6-sol": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.xai.grok-4.6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "us.xai.grok-4.7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "viv-fast": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "x-preview-f-free": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "xai.grok-4.3": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "xai.grok-4.6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "source": "rules:models.dev"
+  },
+  "xiaomi-mimo-v2-5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "xiaomi-mimo-v2-6-flash": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "xpersona-frieren-coder": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "xpersona-gpt-5.5": {
+   "efforts": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "z-ai-glm-5-3-flash": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "z-ai-glm-5-turbo": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "z-ai-glm-5v-turbo": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zai-glm-5-2": {
+   "efforts": [
+    "none",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zai-glm-5-3": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zai-org-glm-4.6": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zai-org-glm-4.7": {
+   "efforts": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zai-org-glm-4.7-flash": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zai-org-glm-5": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zai-org-glm-5-1": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zai-org-glm-5-2": {
+   "efforts": [
+    "none",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zdev": {
+   "efforts": [
+    "low",
+    "high",
+    "max"
+   ],
+   "source": "rules:models.dev"
+  },
+  "zdr": {
+   "efforts": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "source": "rules:models.dev"
+  }
+ },
+ "generatedAt": "2026-09-30T04:10:17.069Z",
+ "policy": "flat by model id; same id across providers → intersection; probe > public rules",
+ "stats": {
+  "total": 1000,
+  "fromProbe": 9,
+  "fromRules": 991,
+  "droppedEmptyIntersection": 0
+ }
+}

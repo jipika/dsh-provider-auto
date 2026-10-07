@@ -1,0 +1,42 @@
+{
+  "name": "dsh-provider-auto",
+  "icon": "./assets/icon.svg",
+  "version": "0.1.1-patch.3",
+  "description": "Reasoning-effort levels for DSH models, matched by model ID only (flat table: measured overrides + OpenRouter∩models.dev). Local patch of icekale/dsh-provider-auto.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "llm",
+    "reasoning-effort",
+    "openai-compatible"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "rules.json",
+    "probe-overrides.json",
+    "tools",
+    "README.md"
+  ],
+  "scripts": {
+    "probe": "node tools/probe-efforts.mjs",
+    "rules": "node tools/build-rules.mjs",
+    "test": "node tools/selftest.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
