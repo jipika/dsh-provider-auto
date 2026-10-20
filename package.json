@@ -1,8 +1,8 @@
 {
   "name": "dsh-provider-auto",
   "icon": "./assets/icon.svg",
-  "version": "0.1.1-patch.3",
-  "description": "Reasoning-effort levels for DSH models, matched by model ID only (flat table: measured overrides + OpenRouter∩models.dev). Local patch of icekale/dsh-provider-auto.",
+  "version": "0.2.0-patch.1",
+  "description": "Reasoning-effort levels for DSH models, matched by (route, model id): measured probes > models.dev per-provider (resolved by baseURL) > cross-route fallback (report-only). Never rewrites a hand-declared reasoningEfforts. Local patch of icekale/dsh-provider-auto.",
   "keywords": [
     "deepseek-harness",
     "dsh-plugin",

@@ -1,70 +1,102 @@
 #!/usr/bin/env node
 /**
- * selftest.mjs —— 离线自检：不联网、不写盘，只验证「模型 ID → 档位」的匹配决策。
- * 核心口径：**只看模型 ID**。同一 ID 出现在哪个 provider 下，拿到的是同一套档位。
- * 用法: node tools/selftest.mjs
+ * selftest.mjs —— 离线自检：不联网、不写盘，只验证 (线路, 模型) → 档位 的查找决策。
+ *
+ * 口径（2026-10-15 改造后，与旧版相反）：**线路参与匹配**。
+ *   ① probe(byRoute) > ② models.dev 单家(byProvider，按 baseURL 反查或 sources 手工绑)
+ *   > ③ 跨线路兜底(byModelId，默认不写盘) > ④ config.modelPattern > 不补
+ *   用户手写的 reasoningEfforts **一律不动**（既不补也不删 —— 少给档位常常是有意的）。
+ *
+ * 用法: node tools/selftest.mjs   （表缺失时用注入的 fake table，不依赖网络产物）
  */
 import assert from 'node:assert/strict';
-import { planEfforts, resolveEfforts, normModelId } from '../index.js';
+import fs from 'node:fs';
+import path from 'node:path';
+import { planEfforts, resolveEfforts, normModelId, normEndpoint } from '../index.js';
 
-const section = {
-  providers: {
-    // 同一个 glm-5.3-flash 故意放在三个不同 provider 下
-    gpt: { api: 'openai-completions', models: [{ id: 'glm-5.3-flash' }, { id: 'gpt-6-sol' }, { id: 'gpt-image-2' }] },
-    command: { api: 'openai-completions', models: [{ id: 'z-ai/glm-5.3-flash' }, { id: 'moonshotai/Kimi-K3' }] },
-    'zai-coding-cn': { api: 'openai-completions', models: [{ id: 'glm-5.3-flash' }] },
-    heihei: { api: 'openai-completions', models: [{ id: 'gpt-6-sol' }] },
-    grok: { api: 'openai-completions', models: [{ id: 'grok-4.7' }, { id: 'grok-never-heard-of-it' }] },
-    claude: { api: 'anthropic-messages', models: [{ id: 'claude-opus-5-5' }] },
-    // 手写声明：任何情况下都不许被覆盖
-    gpt2: { api: 'openai-completions', models: [{ id: 'gpt-6.1-sol', reasoningEfforts: { low: 'low' } }] },
+const HERE = path.dirname(new URL(import.meta.url).pathname);
+const REAL = (() => { try { return JSON.parse(fs.readFileSync(path.join(HERE, '..', 'efforts.json'), 'utf8')); } catch { return null; } })();
+
+const ZAI = 'https://open.bigmodel.cn/api/coding/paas/v4';
+
+// —— 合成表：把三层各放一条，验证优先级与隔离，不依赖联网产物
+const fake = {
+  byRoute: {
+    gpt: { 'gpt-6-sol': { efforts: ['none', 'minimal', 'low', 'medium', 'high', 'xhigh', 'max'], source: 'probe:gpt' } },
+    heihei: { 'gpt-6-sol': { efforts: ['low', 'medium', 'high', 'xhigh', 'max'], source: 'probe:heihei' } },
+  },
+  byProvider: { 'zhipuai-coding-plan': {
+    'glm-5.3-highspeed': { efforts: ['low', 'high', 'max'], source: 'models.dev:zhipuai-coding-plan' },
+    // 手写只给了 low/high：用来验证「表更宽时只报告、不改写」
+    'glm-5.3-flash': { efforts: ['low', 'high', 'max'], source: 'models.dev:zhipuai-coding-plan' },
+  } },
+  endpointIndex: { [ZAI]: 'zhipuai-coding-plan', 'https://ambiguous.example/v1': null },
+  byModelId: {
+    'grok-4.7': { efforts: ['low', 'medium', 'high', 'xhigh'], source: 'rules:intersection' },
+    // 故意放一条比 ② 窄的：验证 ② 命中时**不会**落到交集
+    'glm-5.3-flash': { efforts: ['low', 'high'], source: 'rules:probe∩(2)' },
   },
 };
 
-const cfg = { modelPattern: '^(?:gpt-|glm|grok)', efforts: { low: 'low', medium: 'medium', high: 'high', xhigh: 'xhigh' } };
-const { section: out, resolved } = planEfforts(section, cfg);
-console.log('按模型 ID 的补档位决策：');
-for (const r of resolved) console.log(`  ${r.provider.padEnd(14)} ${r.model.padEnd(26)} ${r.source.padEnd(22)} ${r.efforts.join('/')}`);
+let n = 0;
+const ok = (label, cond) => { assert.ok(cond, label); n++; };
+const eq = (label, a, b) => { assert.deepEqual(a, b, label); n++; };
 
-const keys = (p, m) => Object.keys(out.providers[p].models.find((x) => x.id === m).reasoningEfforts || {});
+// —— ① 线路隔离：同一模型 ID，两条线路拿到**不同**档位（这是本次改造的目的）
+const g1 = resolveEfforts({ modelId: 'gpt-6-sol', route: 'gpt', baseURL: 'x', table: fake, config: {} });
+const g2 = resolveEfforts({ modelId: 'gpt-6-sol', route: 'heihei', baseURL: 'x', table: fake, config: {} });
+eq('gpt 线 7 档', g1?.efforts.length, 7);
+eq('heihei 线 5 档', g2?.efforts.length, 5);
+ok('两条线路的集合不同（旧压平表会砍成 5/5）', JSON.stringify(g1.efforts) !== JSON.stringify(g2.efforts));
+eq('来源标出线路', `${g1.source}|${g2.source}`, 'probe:gpt|probe:heihei');
 
-const GLM = ['low', 'high', 'max'];
-const SOL6 = ['low', 'medium', 'high', 'xhigh', 'max'];
+// —— ② 反查靠 baseURL，不靠 route 名字
+eq('带 baseURL 命中该家声明', resolveEfforts({ modelId: 'glm-5.3-highspeed', route: 'zai-coding-cn', baseURL: ZAI, table: fake, config: {} })?.source, 'models.dev:zhipuai-coding-plan');
+eq('不给 baseURL → 不补', resolveEfforts({ modelId: 'glm-5.3-highspeed', route: 'zai-coding-cn', table: fake, config: {} }), null);
+eq('域名写错 → 不补（不是名字匹配）', resolveEfforts({ modelId: 'glm-5.3-highspeed', route: 'zai-coding-cn', baseURL: 'https://example.com/v4', table: fake, config: {} }), null);
+eq('尾斜杠+query 归一后仍命中', resolveEfforts({ modelId: 'glm-5.3-highspeed', route: 'zai-coding-cn', baseURL: `${ZAI}/?x=1`, table: fake, config: {} })?.source, 'models.dev:zhipuai-coding-plan');
+eq('sources 手工映射优先于反查', resolveEfforts({ modelId: 'glm-5.3-highspeed', route: 'gpt', baseURL: 'https://codexx.v6.army/v1', table: fake, config: { sources: { gpt: 'zhipuai-coding-plan' } } })?.source, 'models.dev:zhipuai-coding-plan');
+eq('端点歧义（null）→ 不猜', resolveEfforts({ modelId: 'glm-5.3-highspeed', route: 'r', baseURL: 'https://ambiguous.example/v1', table: fake, config: {} }), null);
+eq('① 优先级压过 ②', resolveEfforts({ modelId: 'gpt-6-sol', route: 'gpt', baseURL: ZAI, table: { ...fake, byProvider: { 'zhipuai-coding-plan': { 'gpt-6-sol': { efforts: ['low'], source: 'models.dev:x' } } } }, config: {} })?.source, 'probe:gpt');
 
-// —— 核心：同一个模型 ID，在哪个 provider 下都拿到同一套档位
-assert.deepEqual(keys('gpt', 'glm-5.3-flash'), GLM, 'glm-5.3-flash');
-assert.deepEqual(keys('zai-coding-cn', 'glm-5.3-flash'), GLM, '同位同名必须同档位');
-assert.deepEqual(keys('command', 'z-ai/glm-5.3-flash'), GLM, '带 provider 前缀的 id 归一化后命中同一条');
-assert.deepEqual(keys('gpt', 'gpt-6-sol'), SOL6);
-assert.deepEqual(keys('heihei', 'gpt-6-sol'), SOL6, '同位同名必须同档位');
+// —— ③ 兜底表：**默认开**（关掉只会让未实测的新模型落到 ④ 的 pattern 上被盲套档位）
+eq('兜底默认开 → 命中交集估计', resolveEfforts({ modelId: 'grok-4.7', route: 'grok', baseURL: 'x', table: fake, config: {} })?.source, 'fallback:rules:intersection');
+eq('显式关闭才不补', resolveEfforts({ modelId: 'grok-4.7', route: 'grok', baseURL: 'x', table: fake, config: { useFallbackTable: false } }), null);
+eq('② 优先级压过 ③（有该家声明就不该用交集）', resolveEfforts({ modelId: 'glm-5.3-flash', route: 'company', baseURL: ZAI, table: fake, config: {} })?.source, 'models.dev:zhipuai-coding-plan');
 
-// —— provider 完全不参与匹配：把同一个模型换个不存在的 provider 也一样
-const solo = planEfforts({ providers: { anywhere: { api: 'openai-completions', models: [{ id: 'gpt-6.1-sol' }] } } });
-assert.deepEqual(Object.keys(solo.section.providers.anywhere.models[0].reasoningEfforts),
-  ['none', 'minimal', 'low', 'medium', 'high', 'xhigh', 'max'], '换到任意 provider 都要命中');
+// —— ④ pattern 兜底 + 前缀归一
+const pat = resolveEfforts({ modelId: 'brand-new-model', route: 'nowhere', baseURL: 'x', table: fake, config: { modelPattern: '^brand-', efforts: { low: 'low', high: 'high' } } });
+eq('pattern 兜底命中', pat?.efforts, ['low', 'high']);
+eq('带前缀 id 归一', normModelId('z-ai/glm-5.3-flash:batch'), 'glm-5.3-flash');
+eq('端点归一', normEndpoint(`${ZAI}/?a=b`), ZAI);
 
-// —— 公开库兜底
-assert.deepEqual(keys('grok', 'grok-4.7'), ['low', 'medium', 'high', 'xhigh']);
-assert.ok(resolved.find((r) => r.model === 'grok-4.7').source.startsWith('table:rules:'), '走公开库兜底');
+// —— 用户手写：既不补也不删
+const sec = { providers: { company: { api: 'openai-completions', baseURL: ZAI, models: [
+  { id: 'glm-5.3-flash', reasoningEfforts: { low: 'low', high: 'high' } },
+  { id: 'glm-5.3-highspeed' },
+  { id: 'gpt-image-2' },
+] } } };
+const { section, resolved, notes } = planEfforts(sec, {}, { table: fake });
+eq('手写的模型不出现在写入里', resolved.map((r) => r.model), ['glm-5.3-highspeed']);
+eq('手写档位一字未改', section.providers.company.models[0].reasoningEfforts, { low: 'low', high: 'high' });
+ok('比声明更宽的档位只报告', notes.some((x) => x.model === 'glm-5.3-flash' && x.widerThanDeclared?.includes('max')));
+eq('nonText 挡住 image', section.providers.company.models[2].reasoningEfforts, undefined);
+ok('zai 线路给 compat 提示而不写 compat', notes.some((x) => x.compatHint) && section.providers.company.models[1].compat === undefined);
 
-// —— 表里没有 → 退 pattern 兜底；再没有 → 不补
-assert.deepEqual(keys('grok', 'grok-never-heard-of-it'), ['low', 'medium', 'high', 'xhigh']);
-const noPattern = planEfforts(section, {});
-assert.equal(noPattern.section.providers.grok.models.find((m) => m.id === 'grok-never-heard-of-it').reasoningEfforts, undefined, '无 pattern 时不补');
+// —— 协议白名单：anthropic-messages 不在范围内
+eq('anthropic-messages 不处理', planEfforts({ providers: { c: { api: 'anthropic-messages', models: [{ id: 'glm-5.3-highspeed' }] } } }, {}, { table: fake }).resolved, []);
 
-// —— 边界
-assert.equal(out.providers.gpt.models.find((m) => m.id === 'gpt-image-2').reasoningEfforts, undefined, 'nonText 必须挡住 image');
-assert.deepEqual(out.providers.gpt2.models[0].reasoningEfforts, { low: 'low' }, '手写声明不得被覆盖');
-assert.equal(out.providers.claude.models[0].reasoningEfforts, undefined, 'anthropic-messages 不在白名单');
-assert.equal(normModelId('z-ai/glm-5.3-flash:batch'), 'glm-5.3-flash');
-assert.equal(normModelId('moonshotai/Kimi-K3'), 'kimi-k3');
-assert.equal(resolveEfforts({ modelId: 'x', config: {}, table: { byModelId: {} } }), null);
+// —— fixInvalid 已被移除：不得再有删档位的能力
+const old = planEfforts(sec, { fixInvalid: true }, { table: fake });
+eq('fixInvalid 已失效（不再剔除手写档位）', old.section.providers.company.models[0].reasoningEfforts, { low: 'low', high: 'high' });
 
-// —— fixInvalid 打开时只剔除表里没有的档位
-const bad = planEfforts(
-  { providers: { p: { api: 'openai-completions', models: [{ id: 'glm-5.3-flash', reasoningEfforts: { low: 'low', medium: 'medium', xhigh: 'xhigh' } }] } } },
-  { fixInvalid: true },
-);
-assert.deepEqual(Object.keys(bad.section.providers.p.models[0].reasoningEfforts), ['low'], 'fixInvalid 剔除 medium/xhigh');
+console.log(`✅ selftest 全部通过（${n} 组断言，合成表）`);
 
-console.log('\n✅ selftest 全部通过（16 组断言）');
+// —— 真表对照：本机实测的线路隔离必须在产物里成立
+if (REAL?.byRoute) {
+  const sol = ['gpt', 'heihei'].map((r) => REAL.byRoute[r]?.['gpt-6-sol']?.efforts).filter(Boolean);
+  assert.ok(sol.length === 2 && JSON.stringify(sol[0]) !== JSON.stringify(sol[1]), 'efforts.json 里 gpt-6-sol 应两条线路不同档');
+  console.log(`   真表核对：gpt-6-sol → ${sol.map((s) => s.length + '档').join(' vs ')} ✓`);
+} else {
+  console.log('   （efforts.json 不存在或无 byRoute，跳过真表核对）');
+}

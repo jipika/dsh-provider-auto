@@ -76,3 +76,18 @@ node tools/build-efforts-table.mjs       # 重算总表 efforts.json（每次改
 - 同名取交集 ⇒ 表里的档位**偏保守**（比最宽线路少几档）。想要精确，就在对应 provider 下把该模型实测一遍并接受它是"该 ID 的全局口径"。
 - 上游"不校验档位"的线路（grok / claude 中转）采不到实测，条目来自公开库 —— 传错不报错，但也不保证生效。
 - 本插件不 import `@deepseek-ai/schemastery`（本地 link 场景下从 realpath 向上找不到），因此不导出 `Config` schema；配置由 profile patch 的 `config` 原样传给 `apply(ctx, config)`，缺省值在 `index.js` 的 `DEFAULTS` 里。
+
+---
+
+## ☕ 赞赏支持
+
+如果 dsh-provider-auto 对你的研究与测试有所帮助，欢迎请作者喝杯咖啡 ☕
+
+<p align="center">
+  <img src="assets/sponsor.jpg" width="260" alt="微信赞赏码" />
+  <img src="assets/afdian_reward.jpg" width="200" alt="爱发电赞助码" />
+</p>
+
+<p align="center">
+  <b>给项目点个 Star ⭐</b> 同样是对开发者最大的鼓励！
+</p>
